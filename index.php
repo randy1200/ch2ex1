@@ -14,6 +14,11 @@
 </head>
 <body>
 	<img id="logo" src="logo_blue.png" alt="logo.png"/>
-	<h1><?php echo "Hello, World!!"; ?></h1>
+	<h1>
+		<?php
+			print "How are you?";
+			print "I am fine."
+		?>
+	</h1>
 </body>
 </html>
